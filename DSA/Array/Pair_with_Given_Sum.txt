@@ -1,0 +1,24 @@
+Problem: Pair with Given Sum
+Given an array of integers and a target sum, determine if there are any two distinct elements in the array that add up to the target sum. Return true if such a pair exists, otherwise return false.
+
+Example 1:
+Input: arr = , target = 17
+
+Output: true
+
+Explanation: 10 + 7 = 17.
+
+Example 2:
+Input: arr = , target = 8
+
+Output: false
+
+Explanation: No two numbers add up to 8.
+
+Constraints:
+The array may contain both positive and negative integers.
+
+Each input will have at least two elements.
+
+Task:
+Write a function or program that takes the list of numbers and the target sum as input and returns true or false according to the criteria above.

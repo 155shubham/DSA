@@ -1,0 +1,93 @@
+What are the top 10 essential DSA topics for quick practice before my interview
+
+The top 10 essential Data Structures and Algorithms (DSA) topics for quick practice before your interview are:
+
+Arrays
+
+Key problems: Pair with given sum, Maximum Subarray, Best Time to Buy and Sell Stock.
+
+Strings
+
+Important problems: Longest Substring Without Repeating Characters, Check for Anagram, Longest Palindromic Substring.
+
+Linked Lists
+
+Practice reversing a linked list, detecting a cycle, and merging sorted lists.
+
+Stacks & Queues
+
+Key points: Valid Parentheses, Next Greater Element, Implement Queue using Stacks.
+
+Searching & Sorting
+
+Focus on Binary Search and common sorting algorithms (Quick Sort, Merge Sort), and searching in rotated arrays.
+
+Trees (Binary Trees and BSTs)
+
+Important topics: Maximum Depth, Level Order Traversal, Lowest Common Ancestor, Validate BST.
+
+Graphs
+
+Practice DFS, BFS, detecting cycles, Number of Islands, Topological Sorting.
+
+Hashing
+
+Problems like Two Sum, Subarray with sum zero, and frequency counting with hash maps/sets.
+
+Heaps (Priority Queues)
+
+Common problems: Top K Frequent Elements, Find Median from Data Stream.
+
+Dynamic Programming
+
+Essential problems: 0/1 Knapsack, Coin Change, Longest Increasing Subsequence, Longest Common Subsequence.
+
+These topics cover widely asked coding problems and give you quick, practical practice for interviews. Practicing implementation and understanding both brute force and optimized solutions in these areas will help you prepare effectively in a short time.
+
+If you want curated question sets for practice, platforms like LeetCode’s Top Interview Questions are very helpful for quick review.
+
+What are the most frequently asked DSA topics in technical interviews
+What are the most frequently asked DSA topics in technical interviews
+The most frequently asked Data Structures and Algorithms (DSA) topics in technical interviews include the following key areas, which are consistently emphasized across various top companies and interview platforms:
+
+Arrays
+
+Common problems: Pair with given sum, Maximum Subarray, Product of Array Except Self, Trapping Rain Water, Merge Intervals.
+
+Strings
+
+Important questions: Longest Substring Without Repeating Characters, Check for Anagram, Longest Palindromic Substring, Palindromic Substrings.
+
+Linked Lists
+
+Frequently asked problems: Reverse a Linked List, Detect Cycle, Merge Two Sorted Lists, Remove Nth Node From End.
+
+Stacks & Queues
+
+Typical topics: Valid Parentheses, Next Greater Element, Infix to Postfix Conversion, The Celebrity Problem.
+
+Trees (Binary Trees and Binary Search Trees)
+
+Core problems: Maximum Depth, Level Order Traversal, Lowest Common Ancestor, Validate BST, Serialize and Deserialize.
+
+Graphs
+
+Often asked problems: DFS, BFS, Number of Islands, Detect Cycle (Directed and Undirected), Topological Sorting, Course Schedule.
+
+Hashing
+
+Common challenges: Two Sum, Frequency Counting, Subarray with Zero Sum, LRU Cache Implementation.
+
+Heaps (Priority Queues)
+
+Problems like: Top K Frequent Elements, Find Median from Data Stream, Connect Ropes with Minimum Cost.
+
+Dynamic Programming (DP)
+
+Vital problems: 0/1 Knapsack, Coin Change, Longest Increasing Subsequence, Longest Common Subsequence, Unique Paths.
+
+Additional Topics
+
+Disjoint Set Union (DSU), Tries, Bit Manipulation, Recursion & Backtracking.
+
+These topics cover the majority of questions asked in coding interviews, especially at product-based companies. Mastery of these concepts and their common problems can prepare candidates for around 80-90% of DSA questions in interviews. This list aligns well with curated top 50 or top 100 DSA questions sets from platforms like GeeksforGeeks and InterviewBit

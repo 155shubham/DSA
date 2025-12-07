@@ -1,0 +1,60 @@
+﻿Problem Statement
+
+You are given an integer array nums and an integer target.
+Your task is to find the indices of the two numbers such that they add up to the given target.
+
+Return the indices as a space-separated pair in increasing order of index.
+
+If no such pair exists, print -1 -1.
+
+You may assume exactly one valid pair exists unless specified otherwise.
+
+Input Format
+n
+nums[0] nums[1] ... nums[n-1]
+target
+
+
+n → number of elements
+
+Next line → n space-separated integers (the array)
+
+target → the integer sum we need to find
+
+Output Format
+
+Print two integers, the indices of the pair that sums to the target:
+
+i j
+
+
+(Where i < j)
+
+If no pair exists:
+
+-1 -1
+
+Constraints
+1 ≤ n ≤ 10^5
+-10^9 ≤ nums[i] ≤ 10^9
+-10^9 ≤ target ≤ 10^9
+
+
+Time Limit: must run efficiently (O(n) expected).
+Brute force O(n²) may not pass all cases.
+
+Sample Input 0
+4
+2 7 11 15
+9
+
+Sample Output 0
+0 1
+
+Sample Input 1
+4
+3 2 4 6
+6
+
+Sample Output 1
+1 2

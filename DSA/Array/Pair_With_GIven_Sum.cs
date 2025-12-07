@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array;
+namespace DSA.Array_Problems;
 public class Pair_With_GIven_Sum
 {
     //[10,5,7], 17
@@ -26,5 +26,20 @@ public class Pair_With_GIven_Sum
         }
 
         return false;
+    }
+    public static void Test_Find_Pair_With_GIven_Sum()
+    {
+        //**Test - 1 * *
+        int[] arr = { 1, 2, 3 }
+        ;
+        int targetSum = 5;
+        var res = Pair_With_GIven_Sum.Find_Pair_With_GIven_Sum(arr, targetSum);
+        Console.WriteLine(res);
+
+        ////**Test - 2 * *
+        //int[] arr = { 1, 2, 3 };
+        //int targetSum = 7;
+        //var res = Pair_With_GIven_Sum.Find_Pair_With_GIven_Sum(arr, targetSum);
+        //Console.WriteLine(res);
     }
 }
