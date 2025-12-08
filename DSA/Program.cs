@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DSA;
 using DSA.Array_Problems;
+using DSA.BinarySearch;
 
 
 //Test_Pair_With_GIven_Sum.Test_Test_Find_Pair_With_GIven_Sum();
@@ -15,5 +16,7 @@ using DSA.Array_Problems;
 
 //ThreeSum.TestThreeSum();
 
-TestMinStack.Test_MinStack_WithOneStack();
-TestMinStack.Test_MinStack_WithTwoStacks();
+//TestMinStack.Test_MinStack_WithOneStack();
+//TestMinStack.Test_MinStack_WithTwoStacks();
+
+SearchInRotatedSortedArray.TestSearchInRotatedSortedArray();
