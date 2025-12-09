@@ -19,4 +19,6 @@ using DSA.BinarySearch;
 //TestMinStack.Test_MinStack_WithOneStack();
 //TestMinStack.Test_MinStack_WithTwoStacks();
 
-SearchInRotatedSortedArray.TestSearchInRotatedSortedArray();
+//SearchInRotatedSortedArray.TestSearchInRotatedSortedArray();
+
+Jumpgame_Greedy.TestCanJump();

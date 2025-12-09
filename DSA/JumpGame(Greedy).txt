@@ -1,0 +1,80 @@
+﻿Problem 7: Jump Game (Greedy)
+
+This is a HIGH-frequency interview question at Agoda, Booking, Expedia, and companies with optimization-heavy systems.
+
+It tests:
+
+Greedy reasoning
+
+Handling edge cases
+
+Time-optimal thinking
+
+Ability to detect that DP/recursion is unnecessary
+
+Problem Statement
+
+You are given an integer array nums where:
+
+Each element nums[i] represents the maximum jump length from that position.
+
+Your task:
+
+Return true if you can reach the last index, otherwise return false.
+
+You start at index 0.
+
+🖥️ Function Signature
+public bool CanJump(int[] nums)
+{
+    // your logic
+}
+
+📌 Examples
+Example 1
+nums = [2, 3, 1, 1, 4]
+
+
+You can jump:
+
+from index 0 → (up to 2 steps)
+
+go to index 1 → jump 3 steps
+
+reach last index
+
+Output:
+
+true
+
+Example 2
+nums = [3, 2, 1, 0, 4]
+
+
+Here:
+
+you get stuck at index 3 (value = 0)
+
+cannot reach the end
+
+Output:
+
+false
+
+📌 Constraints
+1 ≤ nums.length ≤ 10^5
+0 ≤ nums[i] ≤ 10^5
+
+🎯 What interviewers want
+
+They want to see that you:
+
+Detect the greedy pattern
+
+DO NOT try DP or BFS first
+
+Track the farthest index reachable so far
+
+Stop early when farthest index < current index
+
+This solution must be O(n).
