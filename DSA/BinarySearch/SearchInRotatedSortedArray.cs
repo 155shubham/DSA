@@ -1,4 +1,4 @@
-﻿namespace DSA.BinarySearch;
+﻿namespace src.BinarySearch;
 public class SearchInRotatedSortedArray
 {
     //public static int Get_SearchInRotatedSortedArray(int[] nums, int target)

@@ -1,4 +1,4 @@
-﻿namespace DSA;
+﻿namespace src;
 public class MinStack_WithOneStack
 {
     Stack<(int val, int minSoFar)> _st;

@@ -1,4 +1,4 @@
-﻿namespace DSA.Array_Problems;
+﻿namespace src.Array_Problems;
 public class ThreeSum
 {
     // Time Complexity: O(n^2)

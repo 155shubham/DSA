@@ -1,4 +1,4 @@
-﻿namespace DSA;
+﻿namespace src;
 public class Jumpgame_Greedy
 {
     public static bool CanJump(int[] nums)

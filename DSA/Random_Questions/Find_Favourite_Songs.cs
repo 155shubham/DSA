@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Random_Questions;
+namespace src.Random_Questions;
 
 /*
  * 1.Given someone's favorite songs (as a map) and a genre category (as a map as well).

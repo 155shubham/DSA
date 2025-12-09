@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA;
+namespace src;
 public class BestTimeToBuyAndSellStock
 {
     // O(n^2) time complexity

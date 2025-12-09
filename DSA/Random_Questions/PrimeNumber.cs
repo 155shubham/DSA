@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Random_Questions;
+namespace src.Random_Questions;
 public class PrimeNumber
 {
     public bool CheckIfPrime(int n)

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Array_Problems;
+namespace src.Array_Problems;
 public class Pair_With_GIven_Sum
 {
     //[10,5,7], 17

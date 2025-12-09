@@ -1,7 +1,7 @@
 ﻿using System.Security.AccessControl;
 using System.Text;
 
-namespace DSA;
+namespace src;
 
 // will not work for all cases
 public class LongestSubstringWithoutRepeatingCharacters

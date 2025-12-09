@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DSA.Array_Problems;
+namespace src.Array_Problems;
 public class MergeSortedArray
 {
     public static void Merge(int[] nums1, int m, int[] nums2, int n)

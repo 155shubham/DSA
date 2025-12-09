@@ -5,4 +5,10 @@ LongestSubstringWithoutRepeatingCharacters
 ThreeSum
 MinStack
 SearchInRotatedSortedArray
+JumpGame(GreedyApproach) - MaxReach
+Container With Most Water (Two Pointers)
+Product of Array Except Self
+LRU Cache (Design)
+Word Break (DP)
+Kadane’s Algorithm (Max Subarray)
 

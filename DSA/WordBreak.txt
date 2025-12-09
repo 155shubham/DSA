@@ -1,0 +1,45 @@
+﻿Word Break is a classic DP problem and a great one for interviews. I’ll give you a clean HackerRank-style prompt, constraints, examples, the DP idea (bottom-up + optimization), common pitfalls, and then you can write the C# solution. Ready? Here we go.
+
+🚀 Problem: Word Break (DP)
+Problem statement
+
+Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words. Otherwise return false.
+
+You may reuse dictionary words any number of times.
+
+Function signature (C#)
+public bool WordBreak(string s, IList<string> wordDict)
+
+Input format (conceptual)
+
+s — a non-empty string (only lowercase letters for simplicity)
+
+wordDict — list/collection of unique words
+
+Output
+
+Return true if s can be segmented into one or more dictionary words; otherwise false.
+
+Examples
+
+Example 1
+
+s = "leetcode"
+wordDict = ["leet", "code"]
+Output: true
+Explanation: "leetcode" = "leet" + "code"
+
+
+Example 2
+
+s = "applepenapple"
+wordDict = ["apple","pen"]
+Output: true
+Explanation: "applepenapple" = "apple" + "pen" + "apple"
+
+
+Example 3
+
+s = "catsandog"
+wordDict = ["cats","dog","sand","and","cat"]
+Output: false

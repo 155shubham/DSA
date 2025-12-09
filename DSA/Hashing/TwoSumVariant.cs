@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSA.Hashing;
+namespace src.Hashing;
 public class TwoSumVariant
 {
     // O(n^2) time complexity
