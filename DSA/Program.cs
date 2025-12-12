@@ -1,8 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using src;
-using src.Array_Problems;
-using src.BinarySearch;
-
 
 //Test_Pair_With_GIven_Sum.Test_Test_Find_Pair_With_GIven_Sum();
 
@@ -23,4 +20,7 @@ using src.BinarySearch;
 
 //Jumpgame_Greedy.TestCanJump();
 
-WordBreak_DP.Test_WordBreak_DP();
+//WordBreak_DP.Test_WordBreak_DP();
+
+ContainerWithMostWater.TestMaxArea();
+
