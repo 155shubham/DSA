@@ -1,5 +1,6 @@
 namespace src.Practice_1;
 
+//head -> 10 -> 20 -> 30 -> null
 public class CustomLinkedList
 {
     private Node lastNode;
@@ -64,6 +65,25 @@ public class CustomLinkedList
             curNode = curNode.Next;
         }
         return null;
+    }
+
+    public Node ReverseLinkedList()
+    {
+        Node prevNode = null;
+        Node currNode = headNode.Next;
+
+        Node oldHead = currNode;
+
+        while (currNode != null)
+        {
+            Node nextNode = currNode.Next;
+            currNode.Next = prevNode;
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+        headNode.Next = prevNode;
+        lastNode = oldHead;
+        return headNode.Next;
     }
 }
 
