@@ -19,16 +19,20 @@ public class CustomLinkedList
     public bool DeleteNode(int data)
     {
         Node prevNode = headNode;
-        Node curNode = headNode.Next;
-        while (curNode != null)
+        Node currNode = headNode.Next;
+        while (currNode != null)
         {
-            if (curNode.Data == data)
+            if (currNode.Data == data)
             {
-                prevNode.Next = curNode.Next;
+                prevNode.Next = currNode.Next;
+                if (currNode == lastNode)
+                {
+                    lastNode = prevNode;
+                }
                 return true;
             }
-            prevNode = curNode;
-            curNode = curNode.Next;
+            prevNode = currNode;
+            currNode = currNode.Next;
         }
         return false;
     }
